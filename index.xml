@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Notes &amp; Blog</title>
+    <link>https://cshyam1892.github.io/</link>
+    <description>Recent content on Personal Notes &amp; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jun 2021 11:32:38 +1200</lastBuildDate>
+    
+	<atom:link href="https://cshyam1892.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up Whole OS to Use Tor Dns Servers</title>
+      <link>https://cshyam1892.github.io/posts/setting-up-whole-os-to-use-tor-dns-servers/</link>
+      <pubDate>Thu, 10 Jun 2021 11:32:38 +1200</pubDate>
+      
+      <guid>https://cshyam1892.github.io/posts/setting-up-whole-os-to-use-tor-dns-servers/</guid>
+      <description>##Introduction
+This is a test</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cshyam1892.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cshyam1892.github.io/about/</guid>
+      <description>Welcome I&amp;rsquo;m Shyam Chaudhary. I&amp;rsquo;m computer science graduate, and currently pursuing PostGrad in Wintec.
+Currently Working On  TimeLog:- Building on Laravel for backend and jQuery for UI Portfolio:- To learn React  </description>
+    </item>
+    
+  </channel>
+</rss>
