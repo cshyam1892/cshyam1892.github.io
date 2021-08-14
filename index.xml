@@ -17,7 +17,14 @@
       <pubDate>Thu, 10 Jun 2021 14:38:00 +1200</pubDate>
       
       <guid>https://cshyam1892.github.io/posts/laravel-notes/</guid>
-      <description>Laravel Notes </description>
+      <description>Laravel Notes Add a new column to existing table in a migration Suppose I want to add user_id column into existing table called timelog.
+ php artisan make:migration add_user_id &amp;ndash;table=&amp;quot;timelog&amp;rdquo;
+ Then add new column in new migration file
+ $table-&amp;gt;integer(&amp;lsquo;user_id&amp;rsquo;)-&amp;gt;unsigned()-&amp;gt;index();
+  php artisan migrate
+ To undo the last migration
+ php artisan migrate:rollback
+ </description>
     </item>
     
     <item>

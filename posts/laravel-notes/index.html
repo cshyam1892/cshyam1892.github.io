@@ -13,10 +13,24 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Laravel Notes"/>
-<meta name="twitter:description" content="Laravel Notes "/>
+<meta name="twitter:description" content="Laravel Notes Add a new column to existing table in a migration Suppose I want to add user_id column into existing table called timelog.
+ php artisan make:migration add_user_id &ndash;table=&quot;timelog&rdquo;
+ Then add new column in new migration file
+ $table-&gt;integer(&lsquo;user_id&rsquo;)-&gt;unsigned()-&gt;index();
+  php artisan migrate
+ To undo the last migration
+ php artisan migrate:rollback
+ "/>
 
     <meta property="og:title" content="Laravel Notes" />
-<meta property="og:description" content="Laravel Notes " />
+<meta property="og:description" content="Laravel Notes Add a new column to existing table in a migration Suppose I want to add user_id column into existing table called timelog.
+ php artisan make:migration add_user_id &ndash;table=&quot;timelog&rdquo;
+ Then add new column in new migration file
+ $table-&gt;integer(&lsquo;user_id&rsquo;)-&gt;unsigned()-&gt;index();
+  php artisan migrate
+ To undo the last migration
+ php artisan migrate:rollback
+ " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cshyam1892.github.io/posts/laravel-notes/" />
 <meta property="article:published_time" content="2021-06-10T14:38:00+12:00" />
@@ -80,6 +94,22 @@
     </header>
     <div class="post-content">
       <h1 id="laravel-notes">Laravel Notes</h1>
+<h3 id="add-a-new-column-to-existing-table-in-a-migration">Add a new column to existing table in a migration</h3>
+<p>Suppose I want to add user_id column into existing table called timelog.</p>
+<blockquote>
+<p>php artisan make:migration add_user_id &ndash;table=&quot;timelog&rdquo;</p>
+</blockquote>
+<p>Then add new column in new migration file</p>
+<blockquote>
+<p>$table-&gt;integer(&lsquo;user_id&rsquo;)-&gt;unsigned()-&gt;index();</p>
+</blockquote>
+<blockquote>
+<p>php artisan migrate</p>
+</blockquote>
+<p>To undo the last migration</p>
+<blockquote>
+<p>php artisan migrate:rollback</p>
+</blockquote>
 
     </div>
     <div class="post-footer">
